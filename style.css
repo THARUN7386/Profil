@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: linear-gradient(rgb(22, 202, 222) 0%,rgb(15, 15, 15) 100%);
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4em;
+    color: rgb(72, 15, 73);
+}
+
+h2 {
+    font-size: 3em;
+    color: rgb(224, 19, 19);
+}
+
+h3 {
+    font-size: 1em;
+}
+
+#logo {
+    font-size: 3em;
+    font-weight: 600;
+    color: #3a0440;
+    cursor: pointer;
+}
+#home {
+   
+    color: rgb(1, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#bio {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+p {
+    font-size: 2em;
+}
+
+#skills h2 {
+    text-align: center;
+
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    color: #42973d;
+    font-size: 2em;
+}
+
+#skills ul {
+    font-size: 1em;
+    color: rgb(221, 255, 0);
+}
